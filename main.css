@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --black: #4d4c59;
+  --purple: #6c63ff;
+  --light-grey: #c8c8c8;
+  --text-color: #9c9ab6;
+}
+
+body * {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url(./images/bg.svg);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.app {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 8rem;
+
+  align-items: center;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 5.4rem;
+
+  letter-spacing: 0.105em;
+  text-transform: uppercase;
+
+  color: var(--purple);
+
+  margin-bottom: 1.9rem;
+}
+
+.time-left {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  gap: 9.1rem;
+
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+
+  text-transform: capitalize;
+
+  margin-left: 1rem;
+
+  color: var(--light-grey);
+}
+
+.time {
+  width: 52rem;
+  font-weight: 400;
+  font-size: 7.2rem;
+  line-height: 10.8rem;
+
+  color: var(--black);
+}
+
+p {
+  margin-bottom: 3.1rem;
+
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+
+  color: var(--text-color);
+}
+
+.button {
+  display: inline-block;
+  padding: 1rem 3.2rem;
+
+  background: var(--purple);
+  border-radius: 1rem;
+
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-decoration: none;
+
+  color: #ffffff;
+}
+
+.bg {
+  width: 60.7rem;
+  height: 43.5rem;
+
+  background-image: url(./images/rocket.svg);
+  background-repeat: no-repeat;
+}
