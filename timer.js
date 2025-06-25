@@ -1,5 +1,5 @@
 const countDownElement = document.querySelector(".time")
-const eventDateText = "26 Nov 2022"
+const eventDateText = "26 Nov 2026"
 
 function setTimeDisplay(timeLeft) {
   countDownElement.textContent = timeLeft
